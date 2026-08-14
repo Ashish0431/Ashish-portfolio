@@ -1,2 +1,3 @@
-// You can add interactive JavaScript features here in the future
-console.log("Portfolio loaded successfully!");
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Ashish's Portfolio loaded successfully!");
+});
