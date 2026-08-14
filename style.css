@@ -324,3 +324,27 @@ footer {
     justify-content: center;
   }
 }
+/* Hero Section Profile Photo Styling */
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem; /* Photo aur text ke beech space */
+}
+
+.hero-profile-photo {
+  width: 150px; /* Photo ki width (Size adjust kar sakte hain) */
+  height: 150px; /* Photo ki height */
+  object-fit: cover; /* Photo crop na ho aur container mein adjust ho jaye */
+  border-radius: 50%; /* Photo ko circular (Gol) banane ke liye */
+  border: 4px solid rgba(56, 189, 248, 0.2); /* Photo ke charon taraf border */
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3); /* Photo ke peeche glowing effect */
+}
+
+/* Mobile responsive fix */
+@media (max-width: 768px) {
+  .hero-profile-photo {
+    width: 120px; /* Mobile par photo thodi choti karne ke liye */
+    height: 120px;
+  }
+}
+
