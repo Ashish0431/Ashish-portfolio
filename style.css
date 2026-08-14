@@ -347,4 +347,26 @@ footer {
     height: 120px;
   }
 }
+/* Profile Photo Design */
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.hero-profile-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+}
+
+@media (max-width: 768px) {
+  .hero-profile-photo {
+    width: 115px;
+    height: 115px;
+  }
+}
 
